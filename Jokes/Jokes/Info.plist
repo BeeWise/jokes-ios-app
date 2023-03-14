@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TASK_CONFIGURATOR_ENVIRONMENT</key>
+	<string>$(TASK_CONFIGURATOR_ENVIRONMENT)</string>
+	<key>OPERATION_LOGGING_ENABLED</key>
+	<string>$(OPERATION_LOGGING_ENABLED)</string>
+</dict>
+</plist>
