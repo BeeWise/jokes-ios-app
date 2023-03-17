@@ -10,6 +10,27 @@
 		8549B86929C1B01D00F8F79C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8549B86829C1B01D00F8F79C /* Photo.swift */; };
 		8549B86D29C1B62400F8F79C /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8549B86C29C1B62400F8F79C /* PhotoSize.swift */; };
 		8549B86F29C1B63700F8F79C /* JokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8549B86E29C1B63700F8F79C /* JokeType.swift */; };
+		85CB816D29C36E3B0083625D /* EndpointsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB816C29C36E3B0083625D /* EndpointsBuilder.swift */; };
+		85CB816F29C36E460083625D /* OperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB816E29C36E460083625D /* OperationRequestBuilder.swift */; };
+		85CB817229C36E8D0083625D /* UserToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817129C36E8D0083625D /* UserToken.swift */; };
+		85CB817429C3749B0083625D /* OperationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817329C3749B0083625D /* OperationError.swift */; };
+		85CB817629C374A50083625D /* OperationErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817529C374A50083625D /* OperationErrorCode.swift */; };
+		85CB817929C375610083625D /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817829C375610083625D /* AsynchronousOperation.swift */; };
+		85CB817B29C375860083625D /* DataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817A29C375860083625D /* DataTaskOperation.swift */; };
+		85CB817D29C375980083625D /* DataTaskOperation+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817C29C375980083625D /* DataTaskOperation+Logging.swift */; };
+		85CB817F29C375AF0083625D /* LocalDataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB817E29C375AF0083625D /* LocalDataTaskOperation.swift */; };
+		85CB818129C375BB0083625D /* OperationStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB818029C375BB0083625D /* OperationStatusCode.swift */; };
+		85CB818429C43CEF0083625D /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB818329C43CEF0083625D /* APIResponse.swift */; };
+		85CB818729C43D5D0083625D /* DateFormatter+UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB818629C43D5D0083625D /* DateFormatter+UTC.swift */; };
+		85CB818C29C43DAF0083625D /* TaskConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB818B29C43DAF0083625D /* TaskConfigurator.swift */; };
+		85CB818F29C43DF30083625D /* TaskEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB818E29C43DF30083625D /* TaskEnvironment.swift */; };
+		85CB819329C43EAD0083625D /* GetJokesOperationRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819229C43EAD0083625D /* GetJokesOperationRequestBuilder.swift */; };
+		85CB819529C43EB70083625D /* GetJokesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819429C43EB70083625D /* GetJokesOperation.swift */; };
+		85CB819729C43EC00083625D /* GetJokesOperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819629C43EC00083625D /* GetJokesOperationModel.swift */; };
+		85CB819929C43ECC0083625D /* GetJokesLocalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819829C43ECC0083625D /* GetJokesLocalOperation.swift */; };
+		85CB819C29C447540083625D /* JokesTaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819B29C447540083625D /* JokesTaskModels.swift */; };
+		85CB819E29C4475F0083625D /* JokesTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819D29C4475F0083625D /* JokesTask.swift */; };
+		85CB81A029C447670083625D /* JokesTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819F29C447670083625D /* JokesTaskProtocol.swift */; };
 		85DECED029C0928C00C63AEF /* JokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DECECF29C0928C00C63AEF /* JokesApp.swift */; };
 		85DECED229C0928C00C63AEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DECED129C0928C00C63AEF /* ContentView.swift */; };
 		85DECED429C0928D00C63AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DECED329C0928D00C63AEF /* Assets.xcassets */; };
@@ -47,6 +68,27 @@
 		8549B86829C1B01D00F8F79C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		8549B86C29C1B62400F8F79C /* PhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
 		8549B86E29C1B63700F8F79C /* JokeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeType.swift; sourceTree = "<group>"; };
+		85CB816C29C36E3B0083625D /* EndpointsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsBuilder.swift; sourceTree = "<group>"; };
+		85CB816E29C36E460083625D /* OperationRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationRequestBuilder.swift; sourceTree = "<group>"; };
+		85CB817129C36E8D0083625D /* UserToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToken.swift; sourceTree = "<group>"; };
+		85CB817329C3749B0083625D /* OperationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationError.swift; sourceTree = "<group>"; };
+		85CB817529C374A50083625D /* OperationErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationErrorCode.swift; sourceTree = "<group>"; };
+		85CB817829C375610083625D /* AsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
+		85CB817A29C375860083625D /* DataTaskOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskOperation.swift; sourceTree = "<group>"; };
+		85CB817C29C375980083625D /* DataTaskOperation+Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataTaskOperation+Logging.swift"; sourceTree = "<group>"; };
+		85CB817E29C375AF0083625D /* LocalDataTaskOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataTaskOperation.swift; sourceTree = "<group>"; };
+		85CB818029C375BB0083625D /* OperationStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationStatusCode.swift; sourceTree = "<group>"; };
+		85CB818329C43CEF0083625D /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		85CB818629C43D5D0083625D /* DateFormatter+UTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+UTC.swift"; sourceTree = "<group>"; };
+		85CB818B29C43DAF0083625D /* TaskConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskConfigurator.swift; sourceTree = "<group>"; };
+		85CB818E29C43DF30083625D /* TaskEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEnvironment.swift; sourceTree = "<group>"; };
+		85CB819229C43EAD0083625D /* GetJokesOperationRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJokesOperationRequestBuilder.swift; sourceTree = "<group>"; };
+		85CB819429C43EB70083625D /* GetJokesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJokesOperation.swift; sourceTree = "<group>"; };
+		85CB819629C43EC00083625D /* GetJokesOperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJokesOperationModel.swift; sourceTree = "<group>"; };
+		85CB819829C43ECC0083625D /* GetJokesLocalOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJokesLocalOperation.swift; sourceTree = "<group>"; };
+		85CB819B29C447540083625D /* JokesTaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTaskModels.swift; sourceTree = "<group>"; };
+		85CB819D29C4475F0083625D /* JokesTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTask.swift; sourceTree = "<group>"; };
+		85CB819F29C447670083625D /* JokesTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTaskProtocol.swift; sourceTree = "<group>"; };
 		85DECECC29C0928C00C63AEF /* Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DECECF29C0928C00C63AEF /* JokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesApp.swift; sourceTree = "<group>"; };
 		85DECED129C0928C00C63AEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +160,150 @@
 			path = Joke;
 			sourceTree = "<group>";
 		};
+		85CB816629C36DE80083625D /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				85CB819029C43E620083625D /* Jokes */,
+				85CB816729C36DF20083625D /* Base */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		85CB816729C36DF20083625D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				85CB816B29C36E260083625D /* Operations */,
+				85CB816A29C36E1D0083625D /* Local Operation Seeds */,
+				85CB816929C36E160083625D /* Errors */,
+				85CB816829C36E090083625D /* Builders */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		85CB816829C36E090083625D /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				85CB816C29C36E3B0083625D /* EndpointsBuilder.swift */,
+				85CB816E29C36E460083625D /* OperationRequestBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		85CB816929C36E160083625D /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				85CB817329C3749B0083625D /* OperationError.swift */,
+				85CB817529C374A50083625D /* OperationErrorCode.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		85CB816A29C36E1D0083625D /* Local Operation Seeds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Operation Seeds";
+			sourceTree = "<group>";
+		};
+		85CB816B29C36E260083625D /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				85CB817829C375610083625D /* AsynchronousOperation.swift */,
+				85CB817A29C375860083625D /* DataTaskOperation.swift */,
+				85CB817C29C375980083625D /* DataTaskOperation+Logging.swift */,
+				85CB817E29C375AF0083625D /* LocalDataTaskOperation.swift */,
+				85CB818029C375BB0083625D /* OperationStatusCode.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		85CB817029C36E770083625D /* User Token */ = {
+			isa = PBXGroup;
+			children = (
+				85CB817129C36E8D0083625D /* UserToken.swift */,
+			);
+			path = "User Token";
+			sourceTree = "<group>";
+		};
+		85CB818229C43CE50083625D /* APIResponse */ = {
+			isa = PBXGroup;
+			children = (
+				85CB818329C43CEF0083625D /* APIResponse.swift */,
+			);
+			path = APIResponse;
+			sourceTree = "<group>";
+		};
+		85CB818529C43D470083625D /* Date Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				85CB818629C43D5D0083625D /* DateFormatter+UTC.swift */,
+			);
+			path = "Date Formatter";
+			sourceTree = "<group>";
+		};
+		85CB818829C43D680083625D /* Bundle Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				85DECEFC29C09D8E00C63AEF /* BundleConfiguration.swift */,
+			);
+			path = "Bundle Configuration";
+			sourceTree = "<group>";
+		};
+		85CB818929C43D930083625D /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				85CB819A29C447190083625D /* Jokes */,
+				85CB818D29C43DE90083625D /* Environment */,
+				85CB818A29C43D9E0083625D /* Configurator */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		85CB818A29C43D9E0083625D /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				85CB818B29C43DAF0083625D /* TaskConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		85CB818D29C43DE90083625D /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				85CB818E29C43DF30083625D /* TaskEnvironment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		85CB819029C43E620083625D /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				85CB819129C43E6D0083625D /* Get */,
+			);
+			path = Jokes;
+			sourceTree = "<group>";
+		};
+		85CB819129C43E6D0083625D /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				85CB819229C43EAD0083625D /* GetJokesOperationRequestBuilder.swift */,
+				85CB819429C43EB70083625D /* GetJokesOperation.swift */,
+				85CB819629C43EC00083625D /* GetJokesOperationModel.swift */,
+				85CB819829C43ECC0083625D /* GetJokesLocalOperation.swift */,
+			);
+			path = Get;
+			sourceTree = "<group>";
+		};
+		85CB819A29C447190083625D /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				85CB819B29C447540083625D /* JokesTaskModels.swift */,
+				85CB819D29C4475F0083625D /* JokesTask.swift */,
+				85CB819F29C447670083625D /* JokesTaskProtocol.swift */,
+			);
+			path = Jokes;
+			sourceTree = "<group>";
+		};
 		85DECEC329C0928C00C63AEF = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +327,8 @@
 		85DECECE29C0928C00C63AEF /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				85CB818929C43D930083625D /* Task */,
+				85CB816629C36DE80083625D /* Operations */,
 				85DECF0529C0AF3900C63AEF /* Configurations */,
 				85DECEFB29C09D7A00C63AEF /* Extensions */,
 				85DECF1829C0BA9900C63AEF /* Models */,
@@ -181,7 +369,8 @@
 		85DECEFB29C09D7A00C63AEF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				85DECEFC29C09D8E00C63AEF /* BundleConfiguration.swift */,
+				85CB818829C43D680083625D /* Bundle Configuration */,
+				85CB818529C43D470083625D /* Date Formatter */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -216,6 +405,8 @@
 		85DECF1829C0BA9900C63AEF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85CB818229C43CE50083625D /* APIResponse */,
+				85CB817029C36E770083625D /* User Token */,
 				8549B86A29C1B5C900F8F79C /* Joke */,
 				8549B86729C1B00A00F8F79C /* Photo */,
 				8549B86629C1B00200F8F79C /* User */,
@@ -357,14 +548,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CB817629C374A50083625D /* OperationErrorCode.swift in Sources */,
+				85CB818C29C43DAF0083625D /* TaskConfigurator.swift in Sources */,
 				8549B86D29C1B62400F8F79C /* PhotoSize.swift in Sources */,
 				85DECEFD29C09D8E00C63AEF /* BundleConfiguration.swift in Sources */,
 				85DECED229C0928C00C63AEF /* ContentView.swift in Sources */,
 				8549B86929C1B01D00F8F79C /* Photo.swift in Sources */,
+				85CB817929C375610083625D /* AsynchronousOperation.swift in Sources */,
+				85CB819C29C447540083625D /* JokesTaskModels.swift in Sources */,
+				85CB819529C43EB70083625D /* GetJokesOperation.swift in Sources */,
+				85CB818129C375BB0083625D /* OperationStatusCode.swift in Sources */,
 				8549B86F29C1B63700F8F79C /* JokeType.swift in Sources */,
+				85CB819329C43EAD0083625D /* GetJokesOperationRequestBuilder.swift in Sources */,
+				85CB81A029C447670083625D /* JokesTaskProtocol.swift in Sources */,
+				85CB816F29C36E460083625D /* OperationRequestBuilder.swift in Sources */,
+				85CB817429C3749B0083625D /* OperationError.swift in Sources */,
+				85CB816D29C36E3B0083625D /* EndpointsBuilder.swift in Sources */,
+				85CB817D29C375980083625D /* DataTaskOperation+Logging.swift in Sources */,
+				85CB819729C43EC00083625D /* GetJokesOperationModel.swift in Sources */,
 				85DECF1A29C0BAA700C63AEF /* Joke.swift in Sources */,
+				85CB817B29C375860083625D /* DataTaskOperation.swift in Sources */,
 				85DECF1C29C0BC9B00C63AEF /* User.swift in Sources */,
+				85CB818729C43D5D0083625D /* DateFormatter+UTC.swift in Sources */,
 				85DECED029C0928C00C63AEF /* JokesApp.swift in Sources */,
+				85CB818F29C43DF30083625D /* TaskEnvironment.swift in Sources */,
+				85CB817229C36E8D0083625D /* UserToken.swift in Sources */,
+				85CB819929C43ECC0083625D /* GetJokesLocalOperation.swift in Sources */,
+				85CB819E29C4475F0083625D /* JokesTask.swift in Sources */,
+				85CB817F29C375AF0083625D /* LocalDataTaskOperation.swift in Sources */,
+				85CB818429C43CEF0083625D /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

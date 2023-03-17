@@ -46,6 +46,7 @@ public enum BundleConfiguration {
     struct Keys {
         static let
             taskConfiguratorEnvironment = "TASK_CONFIGURATOR_ENVIRONMENT",
-            operationLoggingEnabled = "OPERATION_LOGGING_ENABLED"
+        operationLoggingEnabled = "OPERATION_LOGGING_ENABLED",
+        jokesEndpoint = "JOKES_ENDPOINT"
     }
 }
