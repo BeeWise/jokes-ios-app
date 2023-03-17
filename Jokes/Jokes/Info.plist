@@ -6,5 +6,13 @@
 	<string>$(TASK_CONFIGURATOR_ENVIRONMENT)</string>
 	<key>OPERATION_LOGGING_ENABLED</key>
 	<string>$(OPERATION_LOGGING_ENABLED)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Helvetica-Bold.ttf</string>
+		<string>Helvetica-BoldOblique.ttf</string>
+		<string>Helvetica-Light.ttf</string>
+		<string>Helvetica-Oblique.ttf</string>
+		<string>Helvetica.ttf</string>
+	</array>
 </dict>
 </plist>

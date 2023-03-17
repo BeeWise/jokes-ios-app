@@ -31,6 +31,15 @@
 		85CB819C29C447540083625D /* JokesTaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819B29C447540083625D /* JokesTaskModels.swift */; };
 		85CB819E29C4475F0083625D /* JokesTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819D29C4475F0083625D /* JokesTask.swift */; };
 		85CB81A029C447670083625D /* JokesTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB819F29C447670083625D /* JokesTaskProtocol.swift */; };
+		85CB81A429C44C350083625D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85CB81A629C44C350083625D /* Localizable.strings */; };
+		85CB81AE29C44DA50083625D /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CB81A929C44DA50083625D /* Helvetica-Bold.ttf */; };
+		85CB81AF29C44DA50083625D /* Helvetica-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CB81AA29C44DA50083625D /* Helvetica-Oblique.ttf */; };
+		85CB81B029C44DA50083625D /* Helvetica-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CB81AB29C44DA50083625D /* Helvetica-Light.ttf */; };
+		85CB81B129C44DA50083625D /* Helvetica-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CB81AC29C44DA50083625D /* Helvetica-BoldOblique.ttf */; };
+		85CB81B229C44DA50083625D /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85CB81AD29C44DA50083625D /* Helvetica.ttf */; };
+		85CB81B729C44F890083625D /* ApplicationConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB81B629C44F890083625D /* ApplicationConstraints.swift */; };
+		85CB81B929C44F920083625D /* ApplicationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB81B829C44F920083625D /* ApplicationStyle.swift */; };
+		85CB81BC29C452440083625D /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CB81BB29C452440083625D /* Color+Hex.swift */; };
 		85DECED029C0928C00C63AEF /* JokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DECECF29C0928C00C63AEF /* JokesApp.swift */; };
 		85DECED229C0928C00C63AEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DECED129C0928C00C63AEF /* ContentView.swift */; };
 		85DECED429C0928D00C63AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DECED329C0928D00C63AEF /* Assets.xcassets */; };
@@ -89,6 +98,16 @@
 		85CB819B29C447540083625D /* JokesTaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTaskModels.swift; sourceTree = "<group>"; };
 		85CB819D29C4475F0083625D /* JokesTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTask.swift; sourceTree = "<group>"; };
 		85CB819F29C447670083625D /* JokesTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTaskProtocol.swift; sourceTree = "<group>"; };
+		85CB81A529C44C350083625D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85CB81A729C44C530083625D /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85CB81A929C44DA50083625D /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		85CB81AA29C44DA50083625D /* Helvetica-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Oblique.ttf"; sourceTree = "<group>"; };
+		85CB81AB29C44DA50083625D /* Helvetica-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Light.ttf"; sourceTree = "<group>"; };
+		85CB81AC29C44DA50083625D /* Helvetica-BoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-BoldOblique.ttf"; sourceTree = "<group>"; };
+		85CB81AD29C44DA50083625D /* Helvetica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvetica.ttf; sourceTree = "<group>"; };
+		85CB81B629C44F890083625D /* ApplicationConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationConstraints.swift; sourceTree = "<group>"; };
+		85CB81B829C44F920083625D /* ApplicationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStyle.swift; sourceTree = "<group>"; };
+		85CB81BB29C452440083625D /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		85DECECC29C0928C00C63AEF /* Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DECECF29C0928C00C63AEF /* JokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesApp.swift; sourceTree = "<group>"; };
 		85DECED129C0928C00C63AEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -304,6 +323,45 @@
 			path = Jokes;
 			sourceTree = "<group>";
 		};
+		85CB81A129C44BF60083625D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85CB81A829C44CC20083625D /* Fonts */,
+				85DECED329C0928D00C63AEF /* Assets.xcassets */,
+				85CB81A629C44C350083625D /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85CB81A829C44CC20083625D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85CB81A929C44DA50083625D /* Helvetica-Bold.ttf */,
+				85CB81AC29C44DA50083625D /* Helvetica-BoldOblique.ttf */,
+				85CB81AB29C44DA50083625D /* Helvetica-Light.ttf */,
+				85CB81AA29C44DA50083625D /* Helvetica-Oblique.ttf */,
+				85CB81AD29C44DA50083625D /* Helvetica.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		85CB81B329C44F5E0083625D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				85CB81B629C44F890083625D /* ApplicationConstraints.swift */,
+				85CB81B829C44F920083625D /* ApplicationStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		85CB81BA29C452370083625D /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				85CB81BB29C452440083625D /* Color+Hex.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		85DECEC329C0928C00C63AEF = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +385,8 @@
 		85DECECE29C0928C00C63AEF /* Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				85CB81A129C44BF60083625D /* Resources */,
+				85CB81B329C44F5E0083625D /* Style */,
 				85CB818929C43D930083625D /* Task */,
 				85CB816629C36DE80083625D /* Operations */,
 				85DECF0529C0AF3900C63AEF /* Configurations */,
@@ -334,7 +394,6 @@
 				85DECF1829C0BA9900C63AEF /* Models */,
 				85DECECF29C0928C00C63AEF /* JokesApp.swift */,
 				85DECED129C0928C00C63AEF /* ContentView.swift */,
-				85DECED329C0928D00C63AEF /* Assets.xcassets */,
 				85DECF1629C0B42D00C63AEF /* Info.plist */,
 				85DECED529C0928D00C63AEF /* Preview Content */,
 			);
@@ -369,6 +428,7 @@
 		85DECEFB29C09D7A00C63AEF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				85CB81BA29C452370083625D /* Color */,
 				85CB818829C43D680083625D /* Bundle Configuration */,
 				85CB818529C43D470083625D /* Date Formatter */,
 			);
@@ -500,6 +560,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ro,
 			);
 			mainGroup = 85DECEC329C0928C00C63AEF;
 			productRefGroup = 85DECECD29C0928C00C63AEF /* Products */;
@@ -519,9 +580,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				85DECED729C0928D00C63AEF /* Preview Assets.xcassets in Resources */,
+				85CB81AE29C44DA50083625D /* Helvetica-Bold.ttf in Resources */,
+				85CB81B229C44DA50083625D /* Helvetica.ttf in Resources */,
+				85CB81AF29C44DA50083625D /* Helvetica-Oblique.ttf in Resources */,
 				85DECF1329C0AF3900C63AEF /* LocalProduction.xcconfig in Resources */,
 				85DECF1229C0AF3900C63AEF /* Production.xcconfig in Resources */,
+				85CB81B029C44DA50083625D /* Helvetica-Light.ttf in Resources */,
+				85CB81A429C44C350083625D /* Localizable.strings in Resources */,
 				85DECF0F29C0AF3900C63AEF /* LocalDevelopment.xcconfig in Resources */,
+				85CB81B129C44DA50083625D /* Helvetica-BoldOblique.ttf in Resources */,
 				85DECED429C0928D00C63AEF /* Assets.xcassets in Resources */,
 				85DECF1029C0AF3900C63AEF /* Development.xcconfig in Resources */,
 			);
@@ -549,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CB817629C374A50083625D /* OperationErrorCode.swift in Sources */,
+				85CB81B929C44F920083625D /* ApplicationStyle.swift in Sources */,
 				85CB818C29C43DAF0083625D /* TaskConfigurator.swift in Sources */,
 				8549B86D29C1B62400F8F79C /* PhotoSize.swift in Sources */,
 				85DECEFD29C09D8E00C63AEF /* BundleConfiguration.swift in Sources */,
@@ -569,8 +637,10 @@
 				85DECF1A29C0BAA700C63AEF /* Joke.swift in Sources */,
 				85CB817B29C375860083625D /* DataTaskOperation.swift in Sources */,
 				85DECF1C29C0BC9B00C63AEF /* User.swift in Sources */,
+				85CB81B729C44F890083625D /* ApplicationConstraints.swift in Sources */,
 				85CB818729C43D5D0083625D /* DateFormatter+UTC.swift in Sources */,
 				85DECED029C0928C00C63AEF /* JokesApp.swift in Sources */,
+				85CB81BC29C452440083625D /* Color+Hex.swift in Sources */,
 				85CB818F29C43DF30083625D /* TaskEnvironment.swift in Sources */,
 				85CB817229C36E8D0083625D /* UserToken.swift in Sources */,
 				85CB819929C43ECC0083625D /* GetJokesLocalOperation.swift in Sources */,
@@ -612,12 +682,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		85CB81A629C44C350083625D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CB81A529C44C350083625D /* en */,
+				85CB81A729C44C530083625D /* ro */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		85DECEEE29C0928D00C63AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85DECF0929C0AF3900C63AEF /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -679,6 +762,7 @@
 			baseConfigurationReference = 85DECF0C29C0AF3900C63AEF /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
