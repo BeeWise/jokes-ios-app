@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
-import Foundation
 
 class ApplicationStyle {
     struct colors {
         static func transparent() -> Color { Color.clear }
         static func white() -> Color { Color(hex: 0xFFFFFF) }
         static func black() -> Color { Color(hex: 0x000000) }
+        
+        static func primary() -> Color { Color(hex: 0x201D2E) }
+        static func secondary() -> Color { Color(hex: 0xBC2753) }
         
         static func lightPrimary() -> Color { Color(hex: 0x6FE9ED) }
         static func lightPrimaryShade15() -> Color { Color(hex: 0x6FE9ED4D) }
@@ -57,6 +59,8 @@ class ApplicationStyle {
     
     public struct images {
         public static func navigationBarBackgroundImage() -> Image { self.image(named: "navigation_bar_background_image") }
+        public static func userAvatarPlaceholderSmallImage() -> Image { self.image(named: "user_avatar_placeholder_small_image") }
+        
         
         public static func image(named: String) -> Image {
             return Image(named, bundle: Bundle.main)

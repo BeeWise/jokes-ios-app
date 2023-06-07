@@ -20,7 +20,7 @@ public class User: Codable {
     
     public var photo: Photo?
     
-    public var points: Int = 0
+    public var points: String = String()
     
     public init(uuid: String) {
         self.createdAt = Date()

@@ -22,7 +22,7 @@ public class Joke: Codable {
     public var dislikeCount: Int = 0
     public var commentCount: Int = 0
     
-    public var points: Int = 0
+    public var points: String = String()
     
     public var type: Int?
     public var status: Int?

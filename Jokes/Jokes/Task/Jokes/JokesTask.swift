@@ -7,6 +7,18 @@
 
 import Foundation
 
+enum JokesTaskModels {
+    struct FetchJokes {
+        var page: Int?
+        var limit: Int?
+    }
+}
+
+protocol JokesTaskProtocol: TaskProtocol {
+    func fetchJokes(model: JokesTaskModels.FetchJokes, completionHandler: @escaping (Result<[Joke], OperationError>) -> Void)
+    func cancelFetchJokesOperations()
+}
+
 class JokesTask: JokesTaskProtocol {
     var fetchJokesOperationQueue = OperationQueue()
     

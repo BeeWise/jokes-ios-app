@@ -14,4 +14,6 @@ APP_NAME = name
 TASK_CONFIGURATOR_ENVIRONMENT = environment
 OPERATION_LOGGING_ENABLED = false
 
+JOKES_ENDPOINT = url
+
 #include "LocalProduction.xcconfig"

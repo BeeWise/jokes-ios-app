@@ -6,6 +6,8 @@
 	<string>$(TASK_CONFIGURATOR_ENVIRONMENT)</string>
 	<key>OPERATION_LOGGING_ENABLED</key>
 	<string>$(OPERATION_LOGGING_ENABLED)</string>
+	<key>JOKES_ENDPOINT</key>
+	<string>$(JOKES_ENDPOINT)</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Helvetica-Bold.ttf</string>

@@ -15,6 +15,7 @@ public final class EndpointsBuilder {
     // MARK: - Jokes
     
     public func jokesEndpoint() -> String {
-        return BundleConfiguration.string(for: BundleConfiguration.Keys.taskConfiguratorEnvironment)
+        print("jokesEndpoint + \(BundleConfiguration.string(for: BundleConfiguration.Keys.jokesEndpoint))" )
+        return BundleConfiguration.string(for: BundleConfiguration.Keys.jokesEndpoint)
     }
 }

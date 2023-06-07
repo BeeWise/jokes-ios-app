@@ -7,10 +7,14 @@
 
 import Foundation
 
-public class TaskConfigurator {
-    public static let shared = TaskConfigurator()
+class TaskConfigurator {
+    static let shared = TaskConfigurator()
     
-    public var environment: TaskEnvironment = .memory
+    var environment: TaskEnvironment = .memory
     
     init() { }
+    
+    func jokesTask() -> JokesTaskProtocol {
+        return JokesTask(environment: self.environment)
+    }
 }

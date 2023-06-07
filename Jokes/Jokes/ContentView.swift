@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View {    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            ApplicationStyle.images.navigationBarBackgroundImage()
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!").font(.custom(
+                "Helvetica-Light",
+                fixedSize: 36))
         }
         .padding()
     }
